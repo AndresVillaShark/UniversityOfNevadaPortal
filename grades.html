@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>View Grades</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="grades.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Top Nav Bar -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <div class="nav-icons" style="font-size:17px; color:#ccc;">
+        <i class="fas fa-chevron-left"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-circle-info"></i>
+        <i class="fas fa-circle-question"></i>
+      </div>
+    </div>
+    <div class="topbar-center">
+      <div class="search-bar">
+        <input type="text" placeholder="Search in Menu..." />
+        <i class="fas fa-search"></i>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <i class="fas fa-bell"></i>
+      <i class="fas fa-ellipsis-vertical"></i>
+      <i class="fas fa-circle-user"></i>
+    </div>
+  </header>
+
+  <!-- Red Banner -->
+  <div class="red-banner">
+    <span>View Grades</span>
+  </div>
+
+  <!-- Page Content -->
+  <main class="grades-main">
+
+    <!-- Term Selector -->
+    <div class="term-row">
+      <span class="term-label">2026 Spring</span>
+      <button class="change-btn">Change</button>
+      <div class="term-sub">Undergraduate</div>
+    </div>
+
+    <!-- Grade Details Header -->
+    <h2 class="section-title">Grade Details</h2>
+
+    <!-- GPA Rows -->
+    <div class="gpa-section">
+      <div class="gpa-row">
+        <span class="gpa-label">Term GPA</span>
+        <span class="gpa-value">0.000</span>
+        <i class="fas fa-chevron-right gpa-arrow"></i>
+      </div>
+      <div class="gpa-divider"></div>
+      <div class="gpa-row">
+        <span class="gpa-label">Cumulative GPA</span>
+        <span class="gpa-value">3.591</span>
+        <i class="fas fa-chevron-right gpa-arrow"></i>
+      </div>
+    </div>
+
+    <!-- Row count -->
+    <div class="row-count">6 rows</div>
+
+    <!-- Grades Table -->
+    <table class="grades-table">
+      <thead>
+        <tr>
+          <th>Class</th>
+          <th>Units</th>
+          <th>Grading</th>
+          <th>Grade</th>
+          <th>Grade Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="class-name">CHEM 108</td>
+          <td>4.00</td>
+          <td>Letter Grade</td>
+          <td class="grade-value">83.51%</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="class-name">ENG 101</td>
+          <td>3.00</td>
+          <td>Letter Grade</td>
+          <td class="grade-value">95.32%</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="class-name">GEOL 100</td>
+          <td>3.00</td>
+          <td>Letter Grade</td>
+          <td class="grade-value">81.27%</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="class-name">KIN 223</td>
+          <td>4.00</td>
+          <td>Letter Grade</td>
+          <td class="grade-value">78.51%</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="class-name">MUS 125</td>
+          <td>3.00</td>
+          <td>Letter Grade</td>
+          <td class="grade-value">91.27%</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="class-name">PSY 101</td>
+          <td>3.00</td>
+          <td>Letter Grade</td>
+          <td class="grade-value">83.12%</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+  </main>
+
+</body>
+</html>
